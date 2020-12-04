@@ -1,0 +1,397 @@
+<style type="text/css">
+                            
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+  
+body{background-color:#2b2b2e;bottom:0;color:#fff;left:0;position:absolute;right:0;top:0}
+/* #2b2b2e */
+
+.blog_card:after {
+    content: "Tıkla ve sunucuyu gör.";
+}
+
+.titleandvote .votebutton {
+            margin-top: 40px;
+            width: 130px;
+            align-items: center;
+            text-align: center;
+            display: inline-block;
+        }
+        
+.columns .bot-img {
+    border-radius: 4px !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+code {
+    background-color: whitesmoke;
+    color: #7289d9;
+    font-size: 0.875em;
+    font-weight: normal;
+    padding: 0.25em 0.5em 0.25em;
+  }
+
+p#createdby {
+    color: white;
+}
+ 
+p.bot-tags-title {
+    color: white;
+}
+
+a.atag {
+    background-color: #7289d9;
+    color: white;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+a.atag:hover {
+    background-color: #7289d9;
+    background-position: 100% 0;
+    background-size: 200% 200%;
+}
+
+.atag::after,
+.atag::before {
+    content: none;
+    border-radius: 50px;
+}
+
+.bot-img img {
+    -webkit-animation: mover 1.5s infinite alternate;
+    animation: mover 1.5s infinite alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    border-radius: 50%
+}
+
+
+
+.bot-name {
+    font-size: 100px;
+    font-family: Montserrat, Verdana;
+    font-size: 72px;
+    color: white;
+  font-weight: 900;
+}
+
+#bot-details-page .btn-like {
+    color: white;
+}
+
+#bot-details-page .btn-like:after {
+    padding-right: 5px;
+    color: white;
+    content: " oy";
+    white-space: pre;
+}
+
+#bot-details-page .bot-name {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 60px;
+}
+
+#bot-details-page .bot-description {
+    color: white;
+    font-size: 19px;
+    line-height: 27px;
+    margin-top: 25px;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+ 
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.logotype img {
+    display: none;
+}
+
+img.dondur {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+img.dondur:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.cardcontainer {
+    margin: 0 auto
+}
+
+.cardcontainer img {
+    animation: zoominoutsinglefeatured 1s infinite;
+}
+
+a.x {
+    margin: 0 auto;
+    background-color: #7289d9;
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 48px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+    box-shadow: 0 16px 32px 0 rgba(9, 204, 170, 0.35);
+    transition: all 0.5s ease;
+}
+
+a.x:hover {
+    box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+    background-position: 0 0;
+}
+ 
+
+h1.a {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: auto;
+    line-height: 1;
+    margin: 0px 0;
+}
+
+
+/* styling my button */
+
+.white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 3px;
+    color: #FFF;
+    transition: .35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: "Montserrat";
+}
+
+.white-mode:hover {
+    background-color: #FFF;
+    color: #122;
+}
+
+ 
+baslik {
+    font-size: 100px;
+    font-family: Montserrat, Verdana;
+    font-size: 72px;
+    background: linear-gradient(45deg, #7289d9 0%, #7289d9 55%, #7289d9 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ 
+div#columns is-tablet is-desktop{
+    background-color:#2b2b2e;
+}
+
+
+a#websitelink.botpagebutton{
+    background-color: #7289d9;
+    color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+a#report.botpagebutton{
+    background-color: #7289d9;
+    color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+
+a#edit.botpagebutton{
+    background-color: #7289d9;
+    color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+
+a#support.botpagebutton{
+    background-color: #7289d9;
+    color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+a#delete.botpagebutton{
+    background-color: #7289d9;
+    color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+a#websitelink.botpagebutton:hover {
+    background-color: #7289d9;
+    background-image: linear-gradient(45deg, #7289d9 0%, #7289d9 55%, #7289d9 90%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+}
+
+
+a#report.botpagebutton:hover {
+color:white!important;
+    background-color: #7289d9;
+}
+
+
+a#support.botpagebutton:hover {
+    background-color: #7289d9;
+    background-image: linear-gradient(45deg, #7289d9 0%, #7289d9 55%, #7289d9 90%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+}
+
+a#delete.botpagebutton:hover {
+    background-color: #7289d9;
+    background-image: linear-gradient(45deg, #7289d9 0%, #7289d9 55%, #7289d9 90%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+}
+
+@media only screen
+and (min-device-width:320px)
+and (max-device-width:480px){
+.mobileShow{display:inline;}
+}
+  .mobileShow {display: none;} 
+  </style> 
+<center>
+  <a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://top.gg/bot/700608702427955270">
+    <img alt="WhYBoLu" src="https://top.gg/api/widget/700608702427955270.svg">
+</a>
+  <h1>Kullanıcı Komutları</h1>
+  <p>
+  • | w!yardım: Yardım menüsünü gösterir.<br>
+  • | w!istatistik: Bot istatistiklerini gösterir.<br>
+  • | w!kullanıcıbilgi: Etiketlediğiniz (veya sizin hakkınızda) hakkında bilgi verir.<br>
+  • | w!sunucubilgi: Sunucu hakkında bilgi verir.<br>
+  • | w!rastgeleemoji: Rastgele Emoji atar.<br>
+  • | w!uyarıliste: Belirtilen kişinin uyarılarına bakarsınız.
+  </p>
+  <br>
+  <h1>Yetkili Komutları</h1>
+  <p>
+  • | w!ban: Etiketlediğiniz kişiyi belirtilen sebep ile banlar.<br>
+  • | w!kick: Etiketlediğiniz kişiyi sunucudan atar.<br>
+  • | w!unban: İdsini belirttiğiniz kişinin yasaklamasını kaldırır.<br>
+  • | w!sil: Belirttiğiniz miktarda mesaj siler.<br>
+  • | w!prefix: Botun ön ekini ayarlar/sıfırlarsınız.<br>
+  • | w!mute: Belirtilen kişiyi susturursunuz.<br>
+  • | w!unmute: Belirtilen kişinin susturmasını kaldırırsınız.<br>
+  • | w!uyar: Belirtilen kişiye uyarı verirsiniz.<br>
+  • | w!uyarısil: Belirtilen kişinin belirtilen İD'li uyarınısı siler.<br>
+  • | w!uyarıtemizle: Belirtilen kişinin uyarılarını silersiniz.
+  </p>
+  <br>
+  <h1>Filtre Komutları</h1>
+  <p>
+  • | w!saas: SA-AS sistemini açıp/kapatırsınız.<br>
+  • | w!küfür: Küfür Engel sistemini açıp/kapatırsınız.<br>
+  • | w!reklam: Reklam Engel sistemini açıp/kapatırsınız.<br>
+  • | w!link: Link Engel sistemini açıp/kapatırsınız.<br>
+  • | w!spam-engel: Spam Engel sistemini açıp/kapatırsınız.<br>
+  • | w!capslock: Capslock Engel sistemini açıp/kapatırsınız.
+  </p>
+  <br>
+  <h1>Moderasyon Komutları</h1>
+  <p>
+  • | w!otorol: Otomatik Rol ayarlar/sıfırlarsınız.<br>
+  • | w!otorolmesaj: Otomatik Rol Mesajı ayarlar/sıfırlarsınız.<br>
+  • | w!sayaç: Sayaç ayarlar/sıfırlarsınız.<br>
+  • | w!sayaçbbmesaj: Sayaç BB Mesajı ayarlar/sıfırlarsınız.<br>
+  • | w!sayaçhgmesaj: Sayaç HG Mesajı ayarlar/sıfırlarsınız.<br>
+  • | w!yedek: Yedekleme sistemine bakarsınız. (Sunucu sahibi özel + Bakımda)<br>
+  • | w!muterole: Mute rolünü ayarlarsınız. (Anti Spam Mute Rolü)<br>
+  • | w!bansınır: Ban Sınır ayarlar/sıfırlarsınız. (Anti Spam Ban Sınırı)<br>
+  • | w!kicksınır: Kick Sınır ayarlar/sıfırlarsınız. (Anti Spam Kick Sınırı)<br>
+  • | w!mutelog: Mute log kanalını ayarlar/sıfırlarsınız. (Mute sistemi log kanalı)<br>
+  • | w!muterol: Mute rolü ayarlar/sıfırlarsınız. (Mute sistemi verilecek rolü)
+  </p>
+  <br>
+  <h1>Sunucu Komutları</h1>
+  <p>
+  • | w!sunucukur normal: Sunucu Kurarsınız. (Sunucu sahibi özel)<br>
+  • | w!sunucukur destek: Bot Destek Sunucu Kurarsınız. (Sunucu sahibi özel + Eklenmedi)<br>
+  • | w!sunucukur gif: Gif Sunucu Kurarsınız. (Sunucu sahibi özel + Eklenmedi)<br>
+  • | w!sunucukur kod: Kod Sunucu Kurarsınız. (Sunucu sahibi özel)<br>
+  • | w!sunucukur botlist: Bot List Sunucu Kurarsınız. (Sunucu sahibi özel + Eklenmedi)<br>
+  • | w!sunucukur tasarım: Tasarım Sunucu Kurarsınız. (Sunucu sahibi özel + Eklenmedi)<br>
+  • | w!sunucukur youtuber: YouTuber Sunucu Kurarsınız. (Sunucu sahibi özel)<br>
+  • | w!sunucukur hosting: Hosting Sunucu Kurarsınız. (Sunucu sahibi özel + Eklenmedi)<br>
+  • | w!sunucukur public: Public Sunucu Kurarsınız. (Sunucu sahibi özel + Eklenmedi)
+  </p>
+  <br>
+  <h1>Kayıt Komutları</h1>
+  <p>
+  • | w!kayıtalınacakrol: Kayıt alınacak rolü ayarlar/sıfırlarsınız.<br>
+  • | w!kayıtyetkilirol: Kayıt yetkili rolü ayarlar/sıfırlarsınız.<br>
+  • | w!kayıterkekrol: Kayıt erkek rolü ayarlar/sıfırlarsınız.<br>
+  • | w!kayıtkızrol: Kayıt kız rolü ayarlar/sıfırlarsınız.<br>
+  • | w!kayıttag: Kayıt tagı ayarlar/sıfırlarsınız.<br>
+  • | w!kayıtkanal: Kayıt kanalı ayarlar/sıfırlarsınız.<br>
+  • | w!admin-istatistik: Admin istatistiklerinize bakarsınız.<br>
+  • | w!erkek: Belirttiğiniz kişiyi erkek olarak kayıt eder.<br>
+  • | w!kız: Belirttiğiniz kişiyi kız olarak kayıt eder.<br>
+  • | w!kayıtsistemikapat: Kayıt sistemini kapatırsınız.
+  </p>
+  <br>
+  <a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://discordapp.com/oauth2/authorize?client_id=700608702427955270&amp;scope=bot&amp;permissions=8" class="x" rel="nofollow">Davet Et</a>
+</center></div></body></html>
+                        
+                    </div>
+                </div>
+            </div>
